@@ -21,11 +21,15 @@ then
 ```python manage.py migrate```
 
 
-### Create user
-```python manage.py createsuperuser```
+### Create admin user account
+```python manage.py createsuperuser``` 
 
-### enter name and password
+enter name and password
 
+
+(additional users can also be created in ```http://<yourIp>:8000/admin```)
+
+### Run server
 
 ```python manage.py runserver <your IP adress>:8000```
 
@@ -34,15 +38,24 @@ open in browser
 ```http://<yourIp>:8000/api/v1/```
 
 
-Login with username + password
+Login with username + password or use 
+username: admin 
+password: admin
 
-### Now you can enter camera details on this page.
+
+-> here you can enter camera details which are accessible via browser in network
 
 
 
-## Frontend with React -> nodejs needs to be installed. I used v17.4.0
+## Instructoins for Frontend with React 
 
-open new console and go to folder ```/DroneInventory/frontend```
+-> nodejs needs to be installed. I used v17.4.0. https://nodejs.dev/learn/how-to-install-nodejs
+
+### Install libaries
+open new console
+
+go to folder ```/DroneInventory/frontend```
+
 
 ```npm install``` installs packages
 
