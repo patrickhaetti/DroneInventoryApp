@@ -46,8 +46,8 @@ open new console and go to folder ```/DroneInventory/frontend```
 
 ```npm install``` installs packages
 
-In file /DroneInventory/frontend/src/Home.js enter your IP (needs to be same as <youIp> from above): \
--For this you can set variable b with your IP (needs to be string format) \
+In file ```/DroneInventory/frontend/src/Home.js``` enter your IP (needs to be same as <youIp> from above): \
+-For this you can set variable ```b``` with your IP (needs to be string format) \
 -or uncomment line 13 and replace  <youIp> with your Ip adress. In this case line 14 needs to be commented out.\
 
 
