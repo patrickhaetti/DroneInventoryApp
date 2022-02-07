@@ -1,0 +1,13 @@
+
+>>> start server
+npm run start
+
+
+>>> install packages
+npm install
+
+>>>run database:
+npx json-server --watch data/db.json --port 8000
+
+
+
