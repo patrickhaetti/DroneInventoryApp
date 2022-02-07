@@ -42,14 +42,14 @@ Login with username + password
 
 ## Frontend with React -> nodejs needs to be installed. I used v17.4.0
 
-### open new console and go to folder /DroneInventory/frontend
+### open new console and go to folder ```/DroneInventory/frontend```
 
 
 ### ```npm install``` installs packages
 
-In file /DroneInventory/frontend/src/Home.js enter your IP (needs to be same as <youIp> from above): 
--For this you can set variable b with your IP (needs to be string format)
--or uncomment line 13 and replace  <youIp> with your Ip adress. In this case line 14 needs to be commented out.
+In file /DroneInventory/frontend/src/Home.js enter your IP (needs to be same as <youIp> from above): \
+-For this you can set variable b with your IP (needs to be string format) \
+-or uncomment line 13 and replace  <youIp> with your Ip adress. In this case line 14 needs to be commented out.\
 
 
 ### ```npm run start```  starts App
